@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark" data-lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio de Rachid Tchakoura, étudiant en Systèmes & Réseaux Informatiques, futur ingénieur réseaux.">
+<title>Portfolio | Rachid Tchakoura</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230B1220'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial' font-weight='bold' fill='%23E8A33D' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progress-bar"></div>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <div class="container nav">
+        <span class="logo">RT<span class="dot">.</span></span>
+
+        <button class="burger" aria-label="Menu" id="burger">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#home" data-fr="Accueil" data-en="Home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" data-fr="À propos" data-en="About" class="nav-link">À propos</a></li>
+                <li><a href="#skills" data-fr="Compétences" data-en="Skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" data-fr="Projets" data-en="Projects" class="nav-link">Projets</a></li>
+                <li><a href="#certif" data-fr="Certifications" data-en="Certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#parcours" data-fr="Parcours" data-en="Journey" class="nav-link">Parcours</a></li>
+                <li><a href="#contact" data-fr="Contact" data-en="Contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="toggles">
+                <button id="theme-toggle" class="icon-btn" aria-label="Changer de thème">
+                    <svg id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+                    </svg>
+                    <svg id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <button id="lang-toggle" class="icon-btn lang-btn" aria-label="Changer de langue">
+                    <span class="flag flag-fr">🇫🇷</span>
+                    <span class="flag flag-en">🇺🇸</span>
+                </button>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+        <h1>Rachid <span class="accent">Tchakoura</span></h1>
+        <h3 data-fr="Étudiant en Systèmes & Réseaux Informatiques" data-en="Systems & Network Engineering Student">Étudiant en Systèmes &amp; Réseaux Informatiques</h3>
+        <div class="hero-links">
+            <a href="#about" class="btn" data-fr="Découvrir mon profil" data-en="Discover my profile">Découvrir mon profil</a>
+            <a href="#contact" class="btn btn-ghost" data-fr="Me contacter" data-en="Contact me">Me contacter</a>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/rachidtchakoura707-boop" target="_blank" rel="noopener" class="social-link">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.59.24 2.76.12 3.05.73.8 1.17 1.83 1.17 3.09 0 4.41-2.68 5.38-5.24 5.67.42.36.78 1.08.78 2.17v3.22c0 .31.21.67.79.56A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"></path></svg>
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/abdoul-rachid-tchakoura-46a48639a/fr/" target="_blank" rel="noopener" class="social-link">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"></path></svg>
+                LinkedIn
+            </a>
+            <a href="CV_Rachid_Tchakoura.pdf" download class="social-link cv-link">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"></path></svg>
+                <span data-fr="Télécharger mon CV" data-en="Download my CV">Télécharger mon CV</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section reveal">
+    <p class="tag" data-fr="01 — profil" data-en="01 — profile">01 — profil</p>
+    <div class="about-grid">
+        <img src="my_image2.png" alt="Photo Rachid" class="portrait">
+        <p class="paragraph" data-fr-html="true">
+            <span data-fr="Je suis" data-en="I am">Je suis</span> <strong>TCHAKOURA Abdoul-Rachid</strong>,
+            <span data-fr="âgé de 18 ans, actuellement étudiant en 1ère année de Systèmes, Réseaux & Informatique à l'ESGIS. Par ma rigueur et ma discipline, j'ai développé des compétences en administration systèmes, réseaux, virtualisation et sécurité informatique. L'informatique me fascine depuis l'enfance et j'ai mis tout en œuvre pour intégrer ce domaine. Mon objectif est de devenir"
+                  data-en="18 years old, currently a first-year student in Systems, Networks & Computer Science at ESGIS. Through discipline and rigor, I have developed skills in systems administration, networking, virtualization and IT security. Computing has fascinated me since childhood, and I have done everything I could to enter this field. My goal is to become">
+                âgé de 18 ans, actuellement étudiant en 1ère année de Systèmes, Réseaux &amp; Informatique à l'ESGIS.
+                Par ma rigueur et ma discipline, j'ai développé des compétences en administration systèmes, réseaux,
+                virtualisation et sécurité informatique. L'informatique me fascine depuis l'enfance et j'ai mis tout
+                en œuvre pour intégrer ce domaine. Mon objectif est de devenir
+            </span>
+            <strong data-fr="ingénieur réseaux." data-en="a network engineer.">ingénieur réseaux.</strong>
+        </p>
+    </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section alt reveal">
+    <p class="tag" data-fr="02 — compétences" data-en="02 — skills">02 — compétences</p>
+    <h2 data-fr="Ce que je maîtrise" data-en="What I master">Ce que je maîtrise</h2>
+    <div class="cards">
+        <div class="card">
+            <span class="card-icon">◈</span>
+            <h3 data-fr="Réseaux" data-en="Networking">Réseaux</h3>
+            <p data-fr="Adressage IP, câblage RJ45, configuration d'équipements." data-en="IP addressing, RJ45 cabling, device configuration.">Adressage IP, câblage RJ45, configuration d'équipements.</p>
+        </div>
+        <div class="card">
+            <span class="card-icon">◈</span>
+            <h3 data-fr="Systèmes" data-en="Systems">Systèmes</h3>
+            <p data-fr="Windows, Linux, virtualisation avec VirtualBox." data-en="Windows, Linux, virtualization with VirtualBox.">Windows, Linux, virtualisation avec VirtualBox.</p>
+        </div>
+        <div class="card">
+            <span class="card-icon">◈</span>
+            <h3 data-fr="Développement" data-en="Development">Développement</h3>
+            <p data-fr="HTML, CSS, C, JavaScript." data-en="HTML, CSS, C, JavaScript.">HTML, CSS, C, JavaScript.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section reveal">
+    <p class="tag" data-fr="03 — projets" data-en="03 — projects">03 — projets</p>
+    <h2 data-fr="Ce que j'ai réalisé" data-en="What I've built">Ce que j'ai réalisé</h2>
+    <div class="cards">
+        <div class="card">
+            <h3 data-fr="Portfolio personnel" data-en="Personal portfolio">Portfolio personnel</h3>
+            <p data-fr="Création de mon site web professionnel." data-en="Built my own professional website.">Création de mon site web professionnel.</p>
+            <div class="stack">
+                <span class="stack-tag">HTML</span>
+                <span class="stack-tag">CSS</span>
+                <span class="stack-tag">JavaScript</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3 data-fr="Site e-commerce" data-en="E-commerce site">Site e-commerce</h3>
+            <p data-fr="Site débutant pour une boutique en ligne." data-en="Beginner project for an online shop.">Site débutant pour une boutique en ligne.</p>
+            <div class="stack">
+                <span class="stack-tag">HTML</span>
+                <span class="stack-tag">CSS</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3 data-fr="Gestion étudiants" data-en="Student management">Gestion étudiants</h3>
+            <p data-fr="Application de gestion en langage C." data-en="Management application built in C.">Application de gestion en langage C.</p>
+            <div class="stack">
+                <span class="stack-tag">C</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certif" class="section alt reveal">
+    <p class="tag" data-fr="04 — certifications" data-en="04 — certifications">04 — certifications</p>
+    <h2 data-fr="Mes certifications" data-en="My certifications">Mes certifications</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Sololearn</h3>
+            <p data-fr="Programmation en JavaScript" data-en="JavaScript programming">Programmation en JavaScript</p>
+            <p class="muted" data-fr="Obtenu en novembre 2025" data-en="Obtained November 2025">Obtenu en novembre 2025</p>
+        </div>
+        <div class="card">
+            <h3>OpenClassrooms</h3>
+            <p data-fr="Bases du réseau" data-en="Networking basics">Bases du réseau</p>
+            <p class="muted" data-fr="Obtenu en janvier 2026" data-en="Obtained January 2026">Obtenu en janvier 2026</p>
+        </div>
+        <div class="card">
+            <h3 data-fr="Microsoft Learning" data-en="Microsoft Learning">Microsoft Learning</h3>
+            <p>HTML, CSS, C, JavaScript</p>
+            <p class="muted" data-fr="Obtenu en mars 2026" data-en="Obtained March 2026">Obtenu en mars 2026</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PARCOURS ===== -->
+<section id="parcours" class="section reveal">
+    <p class="tag" data-fr="05 — parcours" data-en="05 — journey">05 — parcours</p>
+    <h2 data-fr="Mon parcours scolaire" data-en="My academic journey">Mon parcours scolaire</h2>
+    <div class="timeline">
+        <div class="tl-item">
+            <span class="tl-year">2025</span>
+            <div class="tl-content">
+                <h3 data-fr="BAC Série D" data-en="Baccalaureate, Series D">BAC Série D</h3>
+                <p data-fr="Obtenu avec mention." data-en="Obtained with honors.">Obtenu avec mention.</p>
+            </div>
+        </div>
+        <div class="tl-item">
+            <span class="tl-year">2024</span>
+            <div class="tl-content">
+                <h3 data-fr="BAC 1 Série D" data-en="Pre-Baccalaureate, Series D">BAC 1 Série D</h3>
+                <p data-fr="Obtenu avec mention." data-en="Obtained with honors.">Obtenu avec mention.</p>
+            </div>
+        </div>
+        <div class="tl-item">
+            <span class="tl-year">2022</span>
+            <div class="tl-content">
+                <h3>BEPC</h3>
+                <p data-fr="Obtenu avec mention." data-en="Obtained with honors.">Obtenu avec mention.</p>
+            </div>
+        </div>
+        <div class="tl-item">
+            <span class="tl-year">2018</span>
+            <div class="tl-content">
+                <h3>CEPD</h3>
+                <p data-fr="Obtenu." data-en="Obtained.">Obtenu.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section alt contact reveal">
+    <div class="contact-pattern"></div>
+    <p class="tag" data-fr="06 — contact" data-en="06 — contact">06 — contact</p>
+    <h2 data-fr="Discutons" data-en="Let's talk">Discutons</h2>
+
+    <div class="contact-wrap">
+        <div class="contact-list">
+            <a href="mailto:rachidtchakoura707@gmail.com" class="contact-row">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"></path><path d="M4 6l8 7 8-7"></path></svg>
+                </span>
+                <span class="contact-text">rachidtchakoura707@gmail.com</span>
+            </a>
+
+            <a href="tel:+22896077475" class="contact-row">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"></path></svg>
+                </span>
+                <span class="contact-text">+228 96 07 74 75</span>
+            </a>
+
+            <div class="contact-row">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </span>
+                <span class="contact-text" data-fr="Lomé, Togo" data-en="Lomé, Togo">Lomé, Togo</span>
+            </div>
+
+            <a href="https://github.com/rachidtchakoura707-boop" target="_blank" rel="noopener" class="contact-row">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.59.24 2.76.12 3.05.73.8 1.17 1.83 1.17 3.09 0 4.41-2.68 5.38-5.24 5.67.42.36.78 1.08.78 2.17v3.22c0 .31.21.67.79.56A10.51 10.51 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"></path></svg>
+                </span>
+                <span class="contact-text">github.com/rachidtchakoura707-boop</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abdoul-rachid-tchakoura-46a48639a/fr/" target="_blank" rel="noopener" class="contact-row">
+                <span class="contact-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"></path></svg>
+                </span>
+                <span class="contact-text">linkedin.com/in/abdoul-rachid-tchakoura</span>
+            </a>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+            <div class="form-group">
+                <label for="name" data-fr="Nom" data-en="Name">Nom</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" data-fr="Email" data-en="Email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message" data-fr="Message" data-en="Message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn" data-fr="Envoyer" data-en="Send">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© Rachid Tchakoura 2026 — <span data-fr="Tous droits réservés" data-en="All rights reserved">Tous droits réservés</span></p>
+</footer>
+
+<button id="back-to-top" class="back-to-top" aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"></path></svg>
+</button>
+
+<div id="form-toast" class="toast">
+    <span data-fr="Ouverture de votre messagerie…" data-en="Opening your mail client…">Ouverture de votre messagerie…</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
