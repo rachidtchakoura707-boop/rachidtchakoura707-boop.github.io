@@ -170,9 +170,18 @@ nav a.active::after {
 }
 
 .flag {
+    display: flex;
+    align-items: center;
     opacity: 0.35;
     transition: 0.25s;
     filter: grayscale(60%);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.flag svg {
+    display: block;
+    border-radius: 2px;
 }
 
 [data-lang="fr"] .flag-fr {
