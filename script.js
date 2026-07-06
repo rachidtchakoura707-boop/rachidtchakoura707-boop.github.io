@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (savedTheme) {
         root.setAttribute('data-theme', savedTheme);
     }
+
     themeToggle.addEventListener('click', function () {
         var current = root.getAttribute('data-theme');
         var next = current === 'dark' ? 'light' : 'dark';
